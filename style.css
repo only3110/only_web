@@ -1,10 +1,16 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    display: block;
+}
+
 .jumbotron{
 	padding-top: 6rem;
-	background-color: #2e3234
+	background-color: #2e3234;
 }
 
 #gallery{
-	background-color: #2e3234
+	background-color: #2e3234;
 }
 
 section{
