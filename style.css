@@ -1,12 +1,13 @@
 body {
-    position: relative;
-    overflow-x: hidden;
-    display: block;
+	max-width: 100%;
+  overflow-x: hidden;
 }
 
 .jumbotron{
 	padding-top: 6rem;
 	background-color: #2e3234;
+	overflow-x: hidden;
+	max-width: 100%;
 }
 
 #gallery{
@@ -27,4 +28,31 @@ h2{
 
 a{
 	color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #464646;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#contact{
+	background-color: #2e3234;
+}
+
+.btn-primary{
+	border: none;
 }

@@ -21,7 +21,7 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(137,137,137);">
+	<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #2D2D2D;" data-aos="fade-down">
   <div class="container">
     <a class="navbar-brand" href="#">Only_Kreator</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,15 +30,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Home <i class="bi bi-house"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about">About <i class="bi bi-person"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#gallery">Gallery</a>
+          <a class="nav-link" href="#gallery">Gallery <i class="bi bi-columns-gap"></i></a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#project">Project</a>
+          <a class="nav-link" href="#project">Project <i class="bi bi-terminal"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact <i class="bi bi-chat-left"></i></a>
         </li>
       </ul>
     </div>
@@ -47,7 +51,7 @@
 <!-- Akhir-Navbar -->
 <!-- Jumbotron -->
 <section class="jumbotron text-center text-white">
-	<img src="img/profile picture.jpg" alt="Only" width="200" class="rounded-circle">
+	<img src="img/profile picture.jpg" alt="Only" width="200" class="rounded-circle" data-aos="fade-down">
   <h1 class="display-4">Only_Kreator</h1>
   <p class="lead">Student l Artist l Programer</p>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="##181A1B" fill-opacity="1" d="M0,320L0,256L180,256L180,32L360,32L360,224L540,224L540,32L720,32L720,96L900,96L900,160L1080,160L1080,64L1260,64L1260,192L1440,192L1440,320L1260,320L1260,320L1080,320L1080,320L900,320L900,320L720,320L720,320L540,320L540,320L360,320L360,320L180,320L180,320L0,320L0,320Z"></path></svg>
@@ -63,11 +67,20 @@
 			</div>
 		</div>
 		<div class="row justify-content-center fs-5 text-center">
-			<div class="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-delay="200">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error at excepturi saepe accusamus quidem harum magni consequatur delectus autem inventore?</p>
-			</div>
 			<div class="col-md-4" data-aos="fade-right" data-aos-offset="300">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia tempora perferendis vero qui a dicta, quidem quas quis, praesentium laudantium cum aliquid voluptate?</p>
+				<h4>Programing Languages Wich I can</h4>
+				<p>HTML <i class="bi bi-check"></i></p>
+				<p>CSS <i class="bi bi-check"></i></p>
+				<p>Java_Script <i class="bi bi-check"></i></p>
+				<p>Python <i class="bi bi-check"></i></p>
+			</div>
+			<div class="col-md-4" data-aos="fade-up" data-aos-offset="300" data-aos-delay="200">
+				<p>Hello, my name is only I'm 12 y/o and I 6 grade in elementary school and I'm from Indonesia. I like to drawing and programing. I learn programing cuz I want to make a AI(articifial intelegent) and technologies which can be useful for other people.</p>
+			</div>
+			<div class="col-md-4" data-aos="fade-left" data-aos-offset="300">
+				<h4>Other Skills</h4>
+				<p>Drawing <i class="bi bi-check"></i></p>
+				<p>Picture_Editing <i class="bi bi-check"></i></p>
 			</div>
 		</div>
 	</div>
@@ -126,13 +139,13 @@
 <section id="project" style="background-color: #000;">
 	<div class="container">
 		<div class="row text-center mb-4">
-			<div class="col">
+			<div class="col" data-aos="flip-up" data-aos-offset="300">
 				<h2>Project</h2>
 			</div>
 		</div>
 		<div class="row justify-content-center ">
 			<div class="col-md-3 mb-3">
-					<div class="card" data-aos="flip-right">
+					<div class="card" data-aos="flip-left">
   					<img src="img/cal.jpg" class="card-img-top" alt="">
  						<div class="card-body">
     					<p class="card-text">I made a simple calculator, you can check here <a href="https://github.com/Only3110/Calculator-1" target="blank"><i class='bx bxl-python'></i></a>.</p>
@@ -140,7 +153,7 @@
 					</div>
 			</div>
 			<div class="col-md-3 mb-3">
-					<div class="card" data-aos="flip-right">
+					<div class="card" data-aos="flip-left"">
   					<img src="img/cale.jpg" class="card-img-top" alt="">
  						<div class="card-body">
     					<p class="card-text">I made a calender "maker", you can check here <a href="https://github.com/Only3110/Calendar" target="blank"><i class='bx bxl-python'></i></a>.</p>
@@ -148,39 +161,79 @@
 					</div>
 			</div>
 			<div class="col-md-3 mb-3">
-					<div class="card" data-aos="flip-right">
+					<div class="card" data-aos="flip-left">
   					<img src="img/cal.jpg" class="card-img-top" alt="">
  						<div class="card-body">
-    					<p class="card-text">I made a simple calculator, you can check <a href="https://github.com/Only3110/Calculator-1" target="blank"><i class='bx bxl-python'></i></a>.</p>
+    					<p class="card-text">I made a ball race, you can check here <a href="https://github.com/Only3110/Ball_Race" target="blank"><i class='bx bxl-python'></i></a>.</p>
   					</div>
 					</div>
 			</div>
 			<div class="col-md-3 mb-3">
-					<div class="card" data-aos="flip-right">
+					<div class="card" data-aos="flip-left">
   					<img src="img/cal.jpg" class="card-img-top" alt="">
  						<div class="card-body">
-    					<p class="card-text">I made a simple calculator, you can check <a href="https://github.com/Only3110/Calculator-1" target="blank"><i class='bx bxl-python'></i></a>.</p>
+    					<p class="card-text">I made a simple countdown timer, you can check here <a href="https://github.com/Only3110/Countdown-timer" target="blank"><i class='bx bxl-python'></i></a>.</p>
   					</div>
 					</div>
 			</div>
 			<div class="col-md-3 mb-3">
-					<div class="card" data-aos="flip-right">
+					<div class="card" data-aos="flip-left">
   					<img src="img/cal.jpg" class="card-img-top" alt="">
  						<div class="card-body">
-    					<p class="card-text">I made a simple calculator, you can check <a href="https://github.com/Only3110/Calculator-1" target="blank"><i class='bx bxl-python'></i></a>.</p>
+    					<p class="card-text">I made a simple tic-tac-toe, you can check here <a href="https://github.com/Only3110/Calculator-1" target="blank"><i class='bx bxl-python'></i></a>.</p>
   					</div>
 					</div>
 			</div>
 		</div>
 	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2e3234" fill-opacity="1" d="M0,288L0,288L288,288L288,96L576,96L576,224L864,224L864,256L1152,256L1152,64L1440,64L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
 </section>
 <!-- Akhir-Project -->
 
+<!-- Contact -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col text-center" data-aos="flip-up" data-aos-offset="300">
+				<h2>Contact</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center" data-aos="zoom-in">
+			<div class="col-md-8">
+				<div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+  				<strong>Thank you!</strong> Your message is sended.
+  				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+				<form name="Portofolio_Message">
+  				<div class="mb-3">
+    				<label for="Name" class="form-label text-white">Sender Name</label>
+   				 	<input type="text" class="form-control" id="name" aria-describedby="name" name="name">
+  				</div>
+  				<div class="mb-3">
+    				<label for="email" class="form-label text-white">Sender Email</label>
+   				 	<input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+  				</div>
+					<div class="mb-3">
+  					<label for="message" class="form-label text-white">Message</label>
+  					<textarea class="form-control" id="message" rows="3" name="message"></textarea>
+					</div>
+  				<button type="submit" class="btn btn-primary btn-send	" style="background-color: #2D2D2D; border: none;">Submit</button>
+					<button class="btn btn-primary d-none btn-load" style="background-color: #2D2D2D; border: none;" type="button" disabled>
+  					<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  					Loading...
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Akhir-Contact -->
+
 <!-- footer -->	
-<footer style="background-color: #2e3234; padding-bottom: 1px;" class="text-center">
-	<p>Created by Only <a href="https://www.instagram.com/only_kreator/" target="_blank"><i class="bi bi-instagram"></i></a>
-				<a href="https://www.facebook.com/rasyafadil.alakbar.39/" target="_blank"><i class="bi bi-facebook"></i></a>
-				<a href="https://id.pinterest.com/Only_Kreator/_saved/" target="_blank"><i class="bi bi-pin-angle"></i></a></p>
+<footer style="background-color: #2D2D2D; padding-bottom: 1px;" class="text-center text-white">
+	<p>Created by Only <a class="text-white" href="https://www.instagram.com/only_kreator/" target="_blank"><i class="bi bi-instagram"></i></a>
+				<a class="text-white" href="https://www.facebook.com/rasyafadil.alakbar.39/" target="_blank"><i class="bi bi-facebook"></i></a>
+				<a class= "text-white" href="https://id.pinterest.com/Only_Kreator/_saved/" target="_blank"><i class="bi bi-pin-angle"></i></a></p>
 				
 </footer>
 <!-- Akhir-footer -->
@@ -190,10 +243,28 @@
   	<script>
     	AOS.init();
   	</script>
-<!-- gsap -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-	<script>
-		gsap.from('.jumbotron img', {duration: 1, y: -500, opacity: 0, ease: 'power2'});
-	</script>
+
+		<script>
+  		const scriptURL = 'https://script.google.com/macros/s/AKfycbxqMbw6IbciNj2vQZiSwcM3LrOtfu8jEr99J_-jHuPoOwshJnhBltQF-pXa5Bgg47SX/exec'
+  		const form = document.forms['Portofolio_Message']
+			const btnSend = document.querySelector('.btn-send');
+			const btnLoad = document.querySelector('.btn-load');
+			const myAlert = document.querySelector('.alert');
+
+  	form.addEventListener('submit', e => {
+    	e.preventDefault()
+			btnLoad.classList.toggle('d-none');
+			btnSend.classList.toggle('d-none');
+    	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      	.then(response => {
+					btnLoad.classList.toggle('d-none');
+					btnSend.classList.toggle('d-none');
+					myAlert.classList.toggle('d-none');
+					form.reset();	
+					console.log('Success!', response)	
+				})
+      	.catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
