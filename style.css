@@ -1,4 +1,24 @@
 .jumbotron{
-	padding: 2rem 1rem;
-	background-color: #d8d8d8
+	padding-top: 6rem;
+	background-color: #2e3234
+}
+
+#gallery{
+	background-color: #2e3234
+}
+
+section{
+	padding-top: 5rem;
+}
+
+.card{
+	background-color: #f3f3f3;
+}
+
+h2{
+	color: #fff;
+}
+
+a{
+	color: #000;
 }
